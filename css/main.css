@@ -4,8 +4,75 @@
     src: url('../fonts/Shabnam.woff2') format('woff2');
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
 body {
     font-family: 'Shabnam', Tahoma, sans-serif;
     direction: rtl;
     text-align: right;
+}
+
+button.navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+.icon-search:before {
+    content: "\e90b";
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00a680;
+}
+
+.navbar-nav {
+    padding-right: 10px;
+}
+
+.navbar {
+    display: none;
+    box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.just-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007f62;
+}
+
+.togg-icon {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.row-icon {
+    width: 100%;
+    height: 11%;
+    border-radius: 2px;
+    background-color: #007f62;
+}
+
+.nav-link {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: flex;
+    }
 }
