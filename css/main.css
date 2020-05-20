@@ -99,11 +99,12 @@ button.navbar-toggler {
 .selectors {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
     margin-bottom: 70px;
 }
 
 .selector-content {
-    width: 15%;
+    width: 17%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -111,6 +112,7 @@ button.navbar-toggler {
 
 .select1 {
     display: inline-block;
+    cursor: pointer;
     width: 24px;
     height: 12px;
     border-radius: 6px;
@@ -119,6 +121,7 @@ button.navbar-toggler {
 
 .select2 {
     display: inline-block;
+    cursor: pointer;
     width: 12px;
     height: 12px;
     border-radius: 6px;
@@ -127,6 +130,7 @@ button.navbar-toggler {
 
 .select3 {
     display: inline-block;
+    cursor: pointer;
     width: 12px;
     height: 12px;
     border-radius: 6px;
@@ -141,53 +145,124 @@ button.navbar-toggler {
     color: #000000;
 }
 
-@media screen and (max-width: 576px) {
-    .navbar {
-        display: flex;
-    }
-    .just-logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 237px;
-        height: 192px;
-        background-image: url('../assets/009_logo_Bg.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        z-index: -1;
-    }
-    .woman {
-        position: absolute;
-        top: -15px;
-        left: 20px;
-        width: 239px;
-    }
-    .slide-content {
-        position: relative;
-        height: 300px;
-        margin-top: -15px;
-        background-image: url('../assets/002_slide1_bg.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-bottom: 30px;
-    }
-    .balloon2 {
-        position: absolute;
-        width: 8%;
-        top: 80px;
-        right: 34px;
-    }
-    .balloon1 {
-        position: absolute;
-        width: 10%;
-        right: 100px;
-        top: 30px;
-    }
-    .balloon3 {
-        position: absolute;
-        width: 8%;
-        top: 0;
-        left: 8px;
-    }
+.features {
+    width: 100%;
+    background-image: url('../assets/011_bg_wave.svg');
+    height: 152px;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.just-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 237px;
+    height: 192px;
+    background-image: url('../assets/009_logo_Bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.woman {
+    position: absolute;
+    top: -22px;
+    left: 20px;
+    width: 239px;
+    height: 350px;
+    z-index: 1;
+}
+
+.slide-content {
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/002_slide1_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.balloon2 {
+    position: absolute;
+    width: 7%;
+    top: 80px;
+    right: 34px;
+}
+
+.balloon1 {
+    position: absolute;
+    width: 9%;
+    right: 100px;
+    top: 30px;
+}
+
+.balloon3 {
+    position: absolute;
+    width: 7%;
+    top: 0;
+    left: 8px;
+}
+
+.feature-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    border: 1px solid #00a680;
+}
+
+.feature-options {
+    margin-top: -55px;
+    margin-bottom: 30px;
+}
+
+.feature-option {
+    cursor: pointer;
+}
+
+.feature-option:hover {
+    background-color: #f46739;
+    border-color: #f46739;
+    color: white;
+}
+
+.feature-option:hover .icon:before {
+    color: white
+}
+
+.phone-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 61px;
+}
+
+.phone-container img {
+    display: block;
+    width: 100%;
+}
+
+.phone-text {
+    width: 100%;
+    margin-bottom: 46px;
+}
+
+.phone-title {
+    text-align: center;
+    font-size: 30px;
+    color: #007f62;
+    letter-spacing: -0.75px;
+    margin-bottom: 31px;
+}
+
+.phone-par {
+    font-size: 16px;
+    font-weight: 300;
 }
