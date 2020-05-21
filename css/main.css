@@ -238,6 +238,10 @@ button.navbar-toggler {
     color: white
 }
 
+.phone-content {
+    width: 90%;
+}
+
 .phone-container {
     width: 100%;
     display: flex;
@@ -399,4 +403,52 @@ button.navbar-toggler {
 .icon-playstore,
 .icon-download {
     font-size: 20px;
+}
+
+.tr-readiness {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-image: url('../assets/023_amadegisafar.jpg');
+    background-color: rgba(0, 48, 37, 0.5);
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-read {
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+    outline: none !important;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+}
+
+.title-read {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 44px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.text-read {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.icon-arrow {
+    padding-left: 6px;
+}
+
+.btn-read-container {
+    display: flex;
+    justify-content: center;
 }
