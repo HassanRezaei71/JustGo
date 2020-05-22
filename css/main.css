@@ -452,3 +452,216 @@ button.navbar-toggler {
     display: flex;
     justify-content: center;
 }
+
+.places-title {
+    margin-top: 60px;
+}
+
+.places-title h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #007f62;
+    margin-bottom: 29px;
+}
+
+.places-text {
+    margin-bottom: 44px;
+}
+
+.places-text p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.travel-img-box {
+    position: relative;
+    width: 221.9px;
+    height: 157px;
+}
+
+.travel-img-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.travel-img-info {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    color: white;
+    background-color: #0000009a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.places-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.ideas {
+    width: 100%;
+    height: 300px;
+    background-color: #e1fff8;
+}
+
+.idea-text {
+    width: 100%;
+    margin-top: 38px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+
+#email::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.idea-text-content {
+    width: 60%;
+}
+
+.idea-text-content {
+    width: 60%;
+}
+
+.btn-email {
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+    border: none !important;
+    outline: none;
+    color: white;
+}
+
+.btn-email-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/025_footer_Bg.svg');
+    background-size: cover;
+    background-position: 90% 50%;
+    background-color: #e1fff8;
+    overflow: hidden;
+    text-align: center;
+}
+
+.social-media {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.social-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.telegram {
+    background-color: #38d7fa;
+    border: 1px solid #38d7fa;
+    font-size: 26px;
+}
+
+.instagram {
+    background-color: #ee407f;
+    border: 1px solid #ee407f;
+    font-size: 26px;
+}
+
+.twitter {
+    background-color: #38d6fa;
+    border: 1px solid #38d6fa;
+    font-size: 26px;
+}
+
+.links {
+    margin-top: 42px;
+    margin-bottom: 40px;
+}
+
+.links-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-item {
+    font-size: 13px;
+    line-height: 1.85;
+    color: #ffffff;
+}
+
+.link-item:hover {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+
+.icon-circle {
+    font-size: 8px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.links-content:first-child {
+    margin-bottom: 20px;
+}
+
+.contact-num,
+.contact-email {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.icon-viber,
+.icon-interface {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.foot-icon {
+    width: 72px;
+    height: 72px;
+}
