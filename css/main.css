@@ -11,13 +11,22 @@
     -webkit-box-sizing: border-box;
 }
 
+a,
+a:hover{
+    text-decoration: none;
+}
+
 body {
     font-family: 'Shabnam', Tahoma, sans-serif;
     direction: rtl;
     text-align: right;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-button.navbar-toggler {
+.navbar-toggler {
     outline: none;
     border: none;
 }
@@ -27,7 +36,7 @@ button.navbar-toggler {
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #00a680;
+    color: #007f62;
 }
 
 .navbar-nav {
@@ -43,6 +52,11 @@ button.navbar-toggler {
 .button {
     display: flex;
     align-items: center;
+}
+
+.navbar-toggler:focus{
+    border: none;
+    outline: none;
 }
 
 .just-text {
@@ -362,7 +376,7 @@ button.navbar-toggler {
 .btn-icon {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     width: 160px;
     height: 50px;
     border-radius: 25px;
@@ -664,4 +678,64 @@ button.navbar-toggler {
 .foot-icon {
     width: 72px;
     height: 72px;
+}
+
+.wave-top{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    transform: rotate(90deg);
+}
+
+.just-logo-md{
+    width: 406px;
+    height: 219px;
+    position: relative;
+}
+
+.nature-md{
+    width: 35%;
+    height: 35%;
+}
+
+.just-text-md{
+    font-size: 80%;
+    color: #007f62;
+    font-weight: bold;
+}
+
+.logo-box-md{
+    position: absolute;
+    width: 50%;
+    top: 21px;
+    left: 0px;
+}
+
+.nav-links-items{
+    width: 80%;
+}
+
+.nav-links-items a{
+    font-size: 80%;
+    font-weight: 300;
+    color: #333333;
+}
+
+.btn-download{
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.btn-download:focus{
+    border: none;
+    outline: none;
 }

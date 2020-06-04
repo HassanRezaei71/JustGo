@@ -11,59 +11,86 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-white d-md-none">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="button">
-          <div class="togg-icon">
-              <span class="row-icon"></span>
-              <span class="row-icon"></span>
-              <span class="row-icon"></span>
-          </div>
-          <span class="just-text">جاستگو</span>
-        </div>
-      </button>
-        <span class="icon-search"></span>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">صفحه اصلی <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ایده ها</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ویژگی ها</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">درباره ما</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">همکاری با ما</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">تماس با ما</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container-fluid">
+    <div class="container-fluid p-0 m-0">
+        <nav class="navbar navbar-light bg-white d-md-none">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="button">
+                    <div class="togg-icon">
+                        <span class="row-icon"></span>
+                        <span class="row-icon"></span>
+                        <span class="row-icon"></span>
+                    </div>
+                    <span class="just-text">جاستگو</span>
+                </div>
+            </button>
+            <span class="icon-search"></span>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">صفحه اصلی <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ایده ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ویژگی ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">همکاری با ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <header>
-            <div class="row">
-                <div class="just-logo">
-                    <div class="logo-box">
-                        <img src="./assets/nature.svg" class="nature" alt="nature">
-                        <span class="just-text">جاستگو</span>
+            <div class="just-logo d-md-none d-sm-flex">
+                <div class="logo-box">
+                    <img src="./assets/nature.svg" class="nature" alt="nature">
+                    <span class="just-text">جاستگو</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 just-logo-md d-none d-md-block">
+                        <img src="./assets/logo_Bg.svg" alt="logo_Bg">
+                        <div class="logo-box-md">
+                            <img src="./assets/nature.svg" class="nature-md" alt="nature">
+                            <span class="just-text-md">جاستگو</span>
+                        </div>
+                    </div>
+                    <div class="col-md-9 d-none d-md-block">
+                        <div class="nav-links d-flex justify-content-between align-items-center mt-md-4">
+                            <ul class="nav-links-items list-unstyled d-flex justify-content-around m-0">
+                                <li><a href="#">صفحه اصلی</a></li>
+                                <li><a href="#">ایده‌ها</a></li>
+                                <li><a href="#">ویژگی‌ها</a></li>
+                                <li><a href="#">درباره ما</a></li>
+                                <li><a href="#">همکاری با ما</a></li>
+                                <li><a href="#">تماس با ما</a></li>
+                            </ul>
+                            <button class="btn-download">دانلود</button>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="wave-top d-none d-md-block">
+                <img src="./assets/024_footer_wave.png" alt="wave">
+            </div>
         </header>
-        <div class="row slider">
+        <!-- <div class="row slider">
             <div>
                 <div class="slide-container">
                     <h3 class="slide-title">بهتر بشناسید</h3>
                     <span class="title-border"></span>
-                    <p class="slide-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. </p>
+                    <p class="slide-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                        طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                        شرایط فعلی تکنولوژی. </p>
 
                 </div>
                 <div class="slide-content">
@@ -99,7 +126,9 @@
             <div class="col-sm-12 phone-text">
                 <div class="container">
                     <h3 class="phone-title">هتل‌ها، جستجو و رزرو کنید</h3>
-                    <p class="phone-par">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. </p>
+                    <p class="phone-par">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                        طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                        شرایط فعلی تکنولوژی. </p>
                 </div>
             </div>
         </div>
@@ -110,7 +139,8 @@
                 </div>
                 <div class="col-sm-12 flex-sm-column justify-content-between app-text-container">
                     <h3 class="app-title">دانلود اپلیکیشن جاسترو</h3>
-                    <p class="app-text">با وارد کردن شماره همراه خود در کارد پایین لینک دانلود اپلیکیشن رو دریافت کنید</p>
+                    <p class="app-text">با وارد کردن شماره همراه خود در کارد پایین لینک دانلود اپلیکیشن رو دریافت کنید
+                    </p>
                 </div>
                 <div class="col-sm-12 app-number">
                     <input type="number" name="phone-number" class="phone-number" id="phone-number">
@@ -131,7 +161,8 @@
                             </button>
                             <button type="button" class="btn-icon">
                                 <span class="btn-icon-content">
-                                    <span class="cafebazar"><img src="./assets/bazar.png" alt="bazar"></span><span>کافه بازار</span>
+                                    <span class="cafebazar"><img src="./assets/bazar.png" alt="bazar"></span><span>کافه
+                                        بازار</span>
                                 </span>
                             </button>
                             <button type="button" class="btn-icon">
@@ -149,7 +180,9 @@
             <div class="container-fluid tr-readiness">
                 <div class="container readiness-container">
                     <h3 class="title-read">آمادگی سفر</h3>
-                    <p class="text-read">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. </p>
+                    <p class="text-read">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                        طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                        شرایط فعلی تکنولوژی. </p>
                     <div class="btn-read-container">
                         <button class="btn-read">
                             <span class="icon-arrow"></span>
@@ -166,7 +199,9 @@
                     <h3>ایده های سفر</h3>
                 </div>
                 <div class="col-sm-12 places-text">
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. </p>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی.
+                    </p>
                 </div>
                 <div class="col-sm-12 places-boxes">
                     <div class="travel-img-box">
@@ -180,7 +215,8 @@
             <div class="container-fluid ideas">
                 <div class="col-12-sm idea-text">
                     <div class="idea-text-content">
-                        <p>ایده های جدید رو هفتگی دریافت کن آدرس ایمیل خودتون رو در کادر زیر وارد و گزینه ثبت ایمیل رو بزنید.</p>
+                        <p>ایده های جدید رو هفتگی دریافت کن آدرس ایمیل خودتون رو در کادر زیر وارد و گزینه ثبت ایمیل رو
+                            بزنید.</p>
                     </div>
                 </div>
                 <div class="col-sm-12">
@@ -218,9 +254,9 @@
                 </div>
                 <img src="./assets/nature.svg" class="foot-icon" alt="nature">
             </div>
-        </div>
+        </div> -->
     </div>
-    </div>
+
 </body>
 <script src="./js/jquery-3.5.1.js "></script>
 <script src="./js/bootstrap.js "></script>
