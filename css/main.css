@@ -5,6 +5,7 @@
 }
 
 * {
+    font-family: Shabnam;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -289,7 +290,6 @@ body {
 .app-logo-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 47px;
 }
 
 .download {
@@ -315,23 +315,22 @@ body {
     text-align: center;
 }
 
-.app-text-container {
-    margin-bottom: 33px;
-}
-
 .phone-number {
-    width: 100%;
-    outline: 0;
+    width: 70%;
     height: 50px;
-    padding: 0 20px;
-    text-align: left;
     border-radius: 25px;
     border: solid 1px #eeeeee;
     background-color: #fafafa;
+    text-align: left;
+    padding-left: 36px;
+}
+
+.phone-number:focus{
+    outline: none;
 }
 
 .number-btn {
-    width: 140px;
+    width: 120px;
     height: 50px;
     border-radius: 25px;
     box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
@@ -341,15 +340,8 @@ body {
 }
 
 .app-number {
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.btn-container {
+    width: 80%;
+    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -388,12 +380,10 @@ body {
 
 .btn-content {
     width: 100%;
-    height: 200px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 46px;
+    transform: translateY(22px);
 }
 
 .cafebazar {
@@ -733,4 +723,13 @@ body {
 .btn-download:focus{
     border: none;
     outline: none;
+}
+
+@media screen and (min-width: 576px) {
+    .number-btn{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }   
 }
