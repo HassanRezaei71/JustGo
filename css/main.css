@@ -106,19 +106,13 @@ body {
     margin: 17px 0 24px;
 }
 
-.slide-container {
-    margin: 29px 30px 0;
-}
-
 .selectors {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 70px;
 }
 
 .selector-content {
-    width: 17%;
+    width: 65px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -164,6 +158,7 @@ body {
     width: 100%;
     background-image: url('../assets/bg_wave.svg');
     height: 152px;
+    z-index: -1;
     background-size: cover;
     background-position: center;
 }
@@ -184,22 +179,29 @@ body {
     z-index: -1;
 }
 
-.woman {
+.woman-container {
     position: absolute;
-    top: -22px;
+    top: 8%;
     left: 20px;
-    width: 239px;
-    height: 350px;
+    width: 30%;
+    height: 100%;
     z-index: 1;
+}
+
+.woman-container img{
+    width: 100%;
+    height: 100%;
 }
 
 .slide-content {
     position: relative;
-    height: 300px;
-    background-image: url('../assets/002_slide1_bg.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+}
+
+.slide-content .slide1{
+    width: 100%;
+    height: 100%;
 }
 
 .balloon2 {
@@ -228,18 +230,20 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 72px;
-    height: 72px;
+    width: 55px;
+    height: 55px;
     border: 1px solid #00a680;
     background-color: white;
 }
 
 .feature-options {
-    margin-top: -55px;
+    transform: translateY(-60px);
+    z-index: 1; 
 }
 
 .feature-option {
     cursor: pointer;
+    margin: 10px;
 }
 
 .feature-option:hover {
@@ -252,25 +256,12 @@ body {
     color: white
 }
 
-.phone-content {
-    width: 90%;
-}
-
-.phone-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 30px 0 61px;
-}
-
 .phone-container img {
-    display: block;
-    width: 100%;
+    width: 60%;
 }
 
 .phone-text {
-    width: 100%;
-    margin-bottom: 46px;
+    width: 80%;
 }
 
 .phone-title {
@@ -682,8 +673,8 @@ body {
 
 .wave-top{
     position: absolute;
-    width: 320px;
-    height: 320px;
+    width: 220px;
+    height: 211px;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -691,9 +682,13 @@ body {
     transform: rotate(90deg);
 }
 
+.wave-top img{
+    width: 30rem;
+}
+
 .just-logo-md{
     width: 406px;
-    height: 219px;
+    height: 150px;
     position: relative;
 }
 
@@ -720,8 +715,8 @@ body {
 }
 
 .nav-links-items a{
-    font-size: 80%;
-    font-weight: 300;
+    font-size: 85%;
+    font-weight: 400;
     color: #333333;
 }
 
